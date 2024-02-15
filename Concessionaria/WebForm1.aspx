@@ -11,11 +11,11 @@
 
     <h2>Optional:</h2>
     <asp:CheckBoxList ID="OptionalList" runat="server">
-         <asp:ListItem>Sistema navigazione satellitare</asp:ListItem>
-         <asp:ListItem>Tetto panoramico</asp:ListItem>
-         <asp:ListItem>Sedili riscaldati</asp:ListItem>
-         <asp:ListItem>Telecamera retromarcia</asp:ListItem>
-         <asp:ListItem>Sensori parcheggio</asp:ListItem>
+         <asp:ListItem Value="800">Sistema navigazione satellitare</asp:ListItem>
+         <asp:ListItem Value="1200">Tetto panoramico</asp:ListItem>
+         <asp:ListItem Value="500">Sedili riscaldati</asp:ListItem>
+         <asp:ListItem Value="300">Telecamera retromarcia</asp:ListItem>
+         <asp:ListItem Value="400">Sensori parcheggio</asp:ListItem>
     </asp:CheckBoxList>
 
     <h2>Anni di garanzia:</h2>
